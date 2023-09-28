@@ -1,0 +1,51 @@
+@media only screen and (max-width: 500px) {
+    *{
+        margin:0;
+        padding:0;
+    }
+    body{
+        width: 100vh;
+        height: 100vh;
+        background-color: #fff;
+    }    
+    #container{
+            margin-top: -12%;
+            width: 100vw;
+            height: 100vh;
+            display: block;
+        }
+        #result{
+            width: 100vw;
+            height: 45vh;
+            display: block;
+
+        }
+        #result h3{
+            padding-top: 40px;
+        }
+        #description h3{
+            padding-top:0px;
+            margin-top:20px;
+        }
+        #progress{
+            width: 30%;
+            height: 30%;
+        }
+        #summary{
+            display:block;
+            width: 100vw;
+            height: 45%;
+        }
+        .caixa{
+            width: 80%;
+        }
+        .attribution { 
+            margin-top: 0;
+            font-size: 11px; 
+            text-align: center;
+            display:block;
+        }
+        #continue{
+            width: 70%;
+        }
+    }
